@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map Quiz - Europe</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #back-button {
+            position: absolute; /* Position it relative to the viewport */
+            top: calc(90px + 10px); /* Adjust based on the height of the header and margin */
+            left: 10px; /* Add some spacing from the left */
+            padding: 10px 15px;
+            background-color: #1f8662;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #header {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            background-color: #1f8662;
+        }
+        p {
+            font-size: 1.2rem; /* Increase font size for readability */
+            line-height: 1.6; /* Add line height for better spacing */
+            max-width: 600px; /* Limit the width for better readability */
+            text-align: justify; /* Justify the text for a clean look */
+            margin: 20px auto; /* Center the paragraph with margin */
+            color: #333; /* Use a slightly darker color for better contrast */
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <body>
+        <div id="header" style="display: flex;align-items: center;flex-direction: row;justify-content: space-around;">
+            <a style="padding:10px;color:white;flex-grow:1;font-weight: bold;cursor: pointer;" onclick="window.open('https://github.com/sea5000/GEO-QUIZ');">Github</a>
+            <h1 style="padding:10px;color:white;flex-grow:2;cursor: pointer;" onclick="window.open('./index.html');"">Map Quiz</h1>
+            <a style="padding:10px;color:white;flex-grow:1;font-weight: bold;cursor: pointer;" onclick="window.open('./about.html');">About</a>
+        </div>
+        <a id="back-button" href="./index.html">Back</a>
+        <h2>About</h2>
+        <p style="text-indent: 2em;">Hi I'm Spencer, a student at <a href="https://www.modul.ac.at/">Modul University</a> in Vienna, Austria. My project partner Ella and I are conducting a little study for a Math and Statistics class project. I was greatly invested and built this website (I'm relatively new to WEBDEV), so watch out for any bugs.</p>
+        <p style="text-indent: 2em;">The study is 40 questions, 20 for each the U.S. and Europe randomly chosen. The goal of the survey is to compare knowledge of states and European countries in order to test the notion that Americans don't know European geography and vice versa. <a href="https://www.tiktok.com/tag/americansdontknowgeography">(See tiktok)</a></p>
+    </body>
+</html>
