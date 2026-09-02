@@ -900,16 +900,9 @@ Place this code in the empty space below. */
     <script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-auth-compat.js"></script>
+    <script src="./firebase-config.js"></script>
     <script>
-        const firebaseApp = firebase.initializeApp({
-        apiKey: "AIzaSyBL1pdJip7hCq-VZMKfizYMyspFLRgdHkk",
-        authDomain: "geo-quiz-7ad38.firebaseapp.com",
-        databaseURL: "https://geo-quiz-7ad38-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "geo-quiz-7ad38",
-        storageBucket: "geo-quiz-7ad38.firebasestorage.app",
-        messagingSenderId: "395928209564",
-        appId: "1:395928209564:web:f2a865c5652d1ad1a50559"
-        });
+        const firebaseApp = firebase.initializeApp(firebaseConfig);
         const db = firebaseApp.firestore();
         const auth = firebaseApp.auth();
     </script>
