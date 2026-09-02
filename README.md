@@ -4,7 +4,7 @@ A web-based geography quiz and survey built for the **MS1 "Survey in Action"** a
 Statistics course. It collects responses on U.S. and European geography in order to apply sampling methods
 and bias analysis in a real-world setting.
 
-**Live site:** https://geo-quiz-7ad38.web.app/
+**Live site:** https://quiz.spencer-anderson.com/
 
 ---
 
@@ -71,7 +71,7 @@ package.json            # firebase dependency for hosting/deploy tooling
 
 Open the live site to take the quiz:
 
-👉 **[https://geo-quiz-7ad38.web.app/](https://geo-quiz-7ad38.web.app/)**
+👉 **[https://quiz.spencer-anderson.com/](https://quiz.spencer-anderson.com/)**
 
 ---
 
